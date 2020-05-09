@@ -18,7 +18,7 @@ const Navigation = ({props, onRouteChange}) => {
     return (
         <div>
         <Navbar color="black bg-washed-green" light expand="md">
-          <NavbarBrand onClick={()=>onRouteChange('alumni')} href="/">PKBM HANUBA</NavbarBrand>
+          <NavbarBrand onClick={()=>onRouteChange('home')} href="/">PKBM HANUBA</NavbarBrand>
           <NavbarToggler onClick={toggle} />
           <Collapse isOpen={isOpen} navbar>
             <Nav className="mr-auto" navbar>
