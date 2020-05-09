@@ -32,6 +32,7 @@ const Navigation = ({props, onRouteChange}) => {
                 <NavLink onClick={()=>onRouteChange('fasilitas')}>Fasilitas</NavLink>
               </NavItem>              
             </Nav>
+            <NavbarText className="pr3" onClick={()=>onRouteChange('admin')}>Admin</NavbarText>
             <NavbarText onClick={()=>onRouteChange('info')}>Info</NavbarText>
           </Collapse>
         </Navbar>

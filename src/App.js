@@ -10,6 +10,8 @@ import Footer from './Footer/Footer';
 import Alumni from './Alumni/Alumni';
 import Tentor from './Tentor/Tentor';
 import Fasilitas from './Fasilitas/Fasilitas';
+import Login from './Admin/Login';
+import Adminpanel from './Admin/Admin';
 import 'tachyons';
 
 class App extends React.Component {
@@ -49,6 +51,14 @@ class App extends React.Component {
                 : this.state.route === 'info' ?
                   <div>
                     <Info />
+                  </div>
+                  : this.state.route === 'admin' ?
+                  <div>
+                    <Login onRouteChange={this.onRouteChange} />
+                  </div>
+                  : this.state.route === 'adminpanel' ?
+                  <div>
+                    <Adminpanel  />
                   </div>
                   : this.state.route === 'fasilitas' ?
                     <div>

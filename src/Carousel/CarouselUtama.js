@@ -1,7 +1,7 @@
 import React from 'react';
-import gambar1 from '../image/1.jpg';
-import gambar2 from '../image/2.jpg';
-import gambar3 from '../image/3.jpg';
+import gambar1 from '../image/bareng.jpeg';
+import gambar2 from '../image/prestasi.jpeg';
+import gambar3 from '../image/belajar1.jpeg';
 import { UncontrolledCarousel } from 'reactstrap';
 
 
