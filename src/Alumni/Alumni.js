@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
 import CardAlumni from './CardAlumni';
-import iconalumni from '../image/2.jpg';
+// import iconalumni from '../image/2.jpg';
 
-const list = [{ nama: 'Yosua Tarigan', icon: iconalumni, jurusan: 'Sistem Informasi' },
-{ nama: 'Sarah Juliana', icon: iconalumni, jurusan: 'Sistem Komputer' },];
+
 
 
 

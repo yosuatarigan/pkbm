@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import CardTentor from './CardTentor';
-import fototentor from '../image/tentor.jpg';
+// import fototentor from '../image/tentor.jpg';
 
 
 
