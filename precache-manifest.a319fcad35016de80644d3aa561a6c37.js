@@ -1,35 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7399ac00eb670aabc3eb7db013810366",
+    "revision": "e87e4dba1b1a3201a4f7d49ded066203",
     "url": "/pkbm/index.html"
   },
   {
-    "revision": "b26776c30ddd7d65c119",
+    "revision": "22dfb98d59c9ff4526c6",
     "url": "/pkbm/static/css/2.70b4b895.chunk.css"
   },
   {
-    "revision": "b3574914492a28d2a6ab",
-    "url": "/pkbm/static/css/main.270cc4b3.chunk.css"
+    "revision": "69107d0640e6301f29c3",
+    "url": "/pkbm/static/css/main.c542d629.chunk.css"
   },
   {
-    "revision": "b26776c30ddd7d65c119",
-    "url": "/pkbm/static/js/2.3ab5cc3d.chunk.js"
+    "revision": "22dfb98d59c9ff4526c6",
+    "url": "/pkbm/static/js/2.c2960ddd.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/pkbm/static/js/2.3ab5cc3d.chunk.js.LICENSE.txt"
+    "url": "/pkbm/static/js/2.c2960ddd.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b3574914492a28d2a6ab",
-    "url": "/pkbm/static/js/main.5ed768d4.chunk.js"
+    "revision": "69107d0640e6301f29c3",
+    "url": "/pkbm/static/js/main.ff50c764.chunk.js"
   },
   {
     "revision": "9b46adb86179d5bd5e19",
     "url": "/pkbm/static/js/runtime-main.5a83de86.js"
   },
   {
-    "revision": "bef41825248b4e4c20a5429c1c65f159",
-    "url": "/pkbm/static/media/2.bef41825.jpg"
+    "revision": "70a4d4630e2c78deb711a5dfa246ebf6",
+    "url": "/pkbm/static/media/alatmusik.70a4d463.jpeg"
   },
   {
     "revision": "4dde6f196e50cd4b51e9591613674e28",
@@ -40,8 +40,24 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/pkbm/static/media/belajar1.3ba1400c.jpeg"
   },
   {
+    "revision": "8883ac9c5ea3323e9034635846b54676",
+    "url": "/pkbm/static/media/dipojokbaca.8883ac9c.jpg"
+  },
+  {
     "revision": "f96cd1a8e18bc545e03657c6995d30a3",
     "url": "/pkbm/static/media/diskusi1.f96cd1a8.jpeg"
+  },
+  {
+    "revision": "ef6d09984898bfd0245d8c6ef5526d0c",
+    "url": "/pkbm/static/media/jahit.ef6d0998.jpeg"
+  },
+  {
+    "revision": "bfbf4bd7315e27b88390f6de2fcec5a7",
+    "url": "/pkbm/static/media/keterampilan.bfbf4bd7.jpeg"
+  },
+  {
+    "revision": "a006c735da5e373dbd462bc539068c1b",
+    "url": "/pkbm/static/media/perpustakaan.a006c735.jpeg"
   },
   {
     "revision": "e9ec22083f4cbc96c04bc3d1774ea827",
@@ -54,10 +70,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "a6a8aeb01a6d77dc064269f5aaa468ea",
     "url": "/pkbm/static/media/teacher.a6a8aeb0.png"
-  },
-  {
-    "revision": "a8529dac7a86dfdc9ca620fbefb733f4",
-    "url": "/pkbm/static/media/tentor.a8529dac.jpg"
   },
   {
     "revision": "36794b86035707c44ea5adbba0604503",
