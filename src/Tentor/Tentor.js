@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import CardTentor from './CardTentor';
 // import fototentor from '../image/tentor.jpg';
+import Febrina from '../image/Febrina.jpeg';
 
 
 
@@ -22,7 +23,7 @@ class Tentor extends Component   {
     render(){
         return (
             <div className="tc">
-                <p className="f1">Tentor Yayasan PMBK Hanuba</p>
+                <p className="f1">Tutor Yayasan PKBM Hanuba</p>
                 {this.state.listtentor.map((user, i) => {
                     return (
                         

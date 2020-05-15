@@ -1,6 +1,7 @@
 import React from 'react';
 import Program from './program';
 import VisidanMisi from './visidanmisi';
+import Kritik from './kritikdansaran';
 
 const Info = () => {
     return (
@@ -15,9 +16,9 @@ const Info = () => {
                 <div class="fl w-50 bg-near-white tc">
                     <img src="http://greenville.ancorathemes.com/wp-content/uploads/2017/03/image-36-411x552.png" width="max" height="auto" alt="d" />
                 </div>
-                <div className="fl w-50 bg-light-gray  dib v-mid">
-                    <p className="f3 ">Anda punya pertanyaan???</p>
-                    <p className="f4 blue">Hubungi kami</p>
+                <div className="pl-3 fl w-50 bg-light-gray  dib v-mid">
+                    <p className="  f3 ">Anda punya pertanyaan???</p>
+                    <p className="  f4 blue">Hubungi kami</p>
 
                     <p><b>Alamat</b> : 
                     Jl. A.H Nasution Gg Jadi No 18 B Simpang Pos.
@@ -37,6 +38,8 @@ const Info = () => {
                 </div>
             </article>
         </section>
+        
+        <Kritik/>
         </div>
 
 

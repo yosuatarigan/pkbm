@@ -26,7 +26,7 @@ const Navigation = ({props, onRouteChange}) => {
                 <NavLink onClick={()=>onRouteChange('alumni')}>Alumni</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink onClick={()=>onRouteChange('tentor')} >Tentor</NavLink>
+                <NavLink onClick={()=>onRouteChange('tentor')} >Tutor</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink onClick={()=>onRouteChange('fasilitas')}>Fasilitas</NavLink>

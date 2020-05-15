@@ -7,7 +7,7 @@ import Card from './Card';
 
 
 const list = [{ idtext : 'alumni', icon : iconalumni, route:'alumni'},
-                {idtext: 'tentor', icon: teacher, route:'tentor'},
+                {idtext: 'tutor', icon: teacher, route:'tentor'},
                 {idtext: 'Info',   icon :info, route:'info' },
                 {idtext: 'Fasilitas', icon:fasilitas, route:'fasilitas'}];
 
