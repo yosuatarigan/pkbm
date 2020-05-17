@@ -38,7 +38,7 @@ class Kritik extends React.Component {
                 <div className='tc'> 
                     <label for="comment" className="f6 b db mb2">Kritik dan Saran <span className="normal black-60"></span></label>
                      <text>Nama :</text> <input type='text' onChange={this.onNamaChange} /><br/>
-                       <textarea onChange={this.onPesanChange} id="comment" name="comment" className="center db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" aria-describedby="comment-desc"></textarea>
+                       <textarea onChange={this.onPesanChange} id="comment" name="comment" className="center db border-box hover-black w-100 measure ba b--black-20 pa2 br2 mb2" ></textarea>
                     <p onClick={this.onsubmitpesan} className="f6 link dim ph3 pv2 mb2 dib white bg-dark-green" href="#0">Kirim</p>
                     
                 </div>
