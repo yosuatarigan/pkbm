@@ -1,8 +1,10 @@
 import React from 'react';
-import axios from 'axios';
+// import axios from 'axios';
 import CardTentor from './CardTentor';
 import Transit from './transit';
 import DaftarAlumni from './DaftarAlumni';
+import DaftarTransitpesan from './Daftartransitpesan';
+import Daftarpesan from './Daftarpesan';
 import './Admin.css';
 
 class App extends React.Component {
@@ -131,6 +133,10 @@ class App extends React.Component {
 
         <p className="tc f4 b black">Daftar  Alumni PKBM HANUBA</p>
         <DaftarAlumni/>
+        <p className="tc f4 b black">Daftar Kritik dan Pesan yang Perlu dikonfirmasi</p>
+        <DaftarTransitpesan/>
+        <p className="tc f4 b black">Daftar Kritik dan Pesan</p>
+        <Daftarpesan/>
         
 
       </div>

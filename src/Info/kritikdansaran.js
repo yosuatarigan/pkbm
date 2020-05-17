@@ -9,16 +9,16 @@ class Kritik extends React.Component {
         }
     }
     
-    onNamaChange = (data) => {
-        this.setState({ nama: data })
+    onNamaChange = (event) => {
+        this.setState({ nama: event.target.value })
       }
 
-      onPesanChange = (data) => {
-        this.setState({ pesankritik: data })
+      onPesanChange = (event) => {
+        this.setState({ pesankritik: event.target.value })
       }
 
       onsubmitpesan = () => {
-        fetch('https://pkbm-hanuba-api.herokuapp.com/pesanmasuk', {
+        fetch('https://pkbm-hanuba-api.herokuapp.com/transitpesanmasuk', {
           method: 'post',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
@@ -27,7 +27,7 @@ class Kritik extends React.Component {
           })
         })
           .then(response => response.json())
-          .then(() => this.componentDidMount())
+          .then(alert('Pesan sudah dikirim. '))
       }
 
 
